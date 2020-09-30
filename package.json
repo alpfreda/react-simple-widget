@@ -5,7 +5,9 @@
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "yarn run build",
+    "postpublish": "git push --tags"
   },
   "repository": {
     "type": "git",
