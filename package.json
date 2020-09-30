@@ -2,9 +2,10 @@
   "name": "react-simple-widget",
   "version": "1.0.0",
   "description": "Simple widgets for react like gauge card bar and etc...",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,23 @@
   "bugs": {
     "url": "https://github.com/jsgeekes/react-simple-widget/issues"
   },
-  "homepage": "https://github.com/jsgeekes/react-simple-widget#readme"
+  "homepage": "https://github.com/jsgeekes/react-simple-widget#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": ">=15.0.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.44.2",
+    "react": "^16.13.1",
+    "react-dom": ">=15.0.1",
+    "prop-types": "^15.7.2"
+  }
 }
