@@ -1,0 +1,26 @@
+{
+  "name": "react-simple-widget",
+  "version": "1.0.0",
+  "description": "Simple widgets for react like gauge card bar and etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsgeekes/react-simple-widget.git"
+  },
+  "keywords": [
+    "widget",
+    "react",
+    "gauge",
+    "card",
+    "bar"
+  ],
+  "author": "jsgeekes@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsgeekes/react-simple-widget/issues"
+  },
+  "homepage": "https://github.com/jsgeekes/react-simple-widget#readme"
+}
